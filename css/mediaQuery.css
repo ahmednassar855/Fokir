@@ -1,0 +1,118 @@
+/* medium screen min 769 - 990 */
+@media screen and (min-width: 769px) and (max-width: 990px){
+
+    .element2{
+        color: aliceblue;
+        height: 100px;
+        right: 20%;
+        top: 10%;;
+    }
+
+    .section3 .container2 .contents .content1{
+        width: 48%;
+    }
+
+    .section4 .contents .links .portfolio-link{
+        width: 70%;
+    }
+
+    .section4 .contents .firstPortfolios{
+        width: 100%;
+    }
+
+    .section4 .contents  .firstPortfolios .content1{
+        width: 50%;
+        float: left;
+        padding-top: 10px;
+    }
+    
+    .section4 .contents  .secondPortfolios .content1{
+        width: 50%;
+        float: left;
+        padding-top: 10px;
+    }
+    
+
+}
+    
+/* small screen   lower than 768*/ 
+@media screen and (max-width: 768px) {
+
+ /* section 2 */   
+    .section2 .container .myPhoto{
+        width: 100%;
+        display: block;
+    }
+    .section2 .container .coverProfile{
+        border: none;
+    }
+
+    .section2 .container .myInfo{
+        width: 80%;
+        padding-top: 40px;
+    }
+
+    .section2 .container .myInfo .myTable .leftTable{
+        float: none;
+    }
+/* section 3 */
+    .section3 .container2 .content1{
+        width: 80%;
+    }
+
+/* section 4 */
+    .section4 .contents .links .portfolio-link{
+        width: 67%;
+        margin: auto;
+        text-align: center;
+    }
+
+    
+    .section4 .contents .firstPortfolios .content1{
+        width: 80%;
+        display: block;
+        margin: auto;
+        padding-top: 10px;
+    }
+    
+    .section4 .contents .secondPortfolios .content1{
+        width: 80%;
+        display: block;
+        margin: auto;
+    }
+
+/* section 5 */
+    .section5 .contents .col{
+        width: 100%;
+        padding-top: 10px;
+        display: inline-block;
+    }
+
+/* section 6 */
+    .section6 .contents .clients .content1{
+        height: 450px;
+    }
+    
+    .clientFeedback .contents{
+        width: initial;
+        padding-top: 100px;
+        margin-left: 20px;
+    }
+   
+    .clientFeedback .clientImage {
+        float: none;
+        position: relative;
+        right: -40%;
+    }
+/* secitnio 7 */
+    .section7 .contents .blogs {
+        width: 80%;
+        margin: auto;
+    }
+    .section7 .contents .blogs .content1{
+        width: 100%;
+        margin: auto;
+    }
+      
+}
+  
